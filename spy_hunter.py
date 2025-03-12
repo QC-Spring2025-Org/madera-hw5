@@ -5,8 +5,6 @@ from qiskit.quantum_info import SparsePauliOp
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 from qiskit_ibm_runtime import Session, SamplerV2 as Sampler, QiskitRuntimeService
 
-#service = QiskitRuntimeService(channel="ibm_quantum", token="0c6387e82de0da30b3c63bb7d0794c2e03f98064ec71f2776004d5749abd7d71136525d7f72d53e5437454574201e7297a26defb3f2bce8ee54c958b290eeb45")
-#backend = service.backend('ibm_brisbane')
 
 # Setup 
 qreg_q = QuantumRegister(3, 'q')
